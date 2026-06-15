@@ -376,5 +376,5 @@ MIT — usa, modifica, ridistribuisci liberamente. Non garantito per lampadine c
 
 <p align="center">
   Costruito con Cloudflare Workers · Tuya Open API · JavaScript vanilla · zero dipendenze<br>
-  Sviluppato con <a href="https://claude.ai/code">Claude Code</a> (Anthropic)
+  Sviluppato con <a href="https://claude.ai/code">CLAUDE</a> di Anthropic da <strong>PIGNOLO GIMMY</strong>
 </p>
