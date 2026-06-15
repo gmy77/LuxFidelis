@@ -1,0 +1,19 @@
+name = "luxfidelis"
+main = "worker.js"
+compatibility_date = "2026-06-01"
+
+# Set your Cloudflare account_id here (found in the Cloudflare dashboard sidebar)
+# account_id = "YOUR_ACCOUNT_ID_HERE"
+
+[triggers]
+crons = ["*/2 * * * *"]
+
+# Create a KV namespace: npx wrangler kv namespace create LUCE_KV
+# Then replace the id below with the one from the output
+[[kv_namespaces]]
+binding = "LUCE_KV"
+id = "YOUR_KV_NAMESPACE_ID_HERE"
+
+[[routes]]
+pattern = "your-domain.com/*"
+zone_name = "your-domain.com"
